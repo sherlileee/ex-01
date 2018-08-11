@@ -1,0 +1,79 @@
+/* Your custom css code goes here */
+
+.probootstrap-image:hover .para-body{
+    opacity: 1;
+}
+.para-body{
+    height:100%;
+    opacity: 0;
+    padding: 15% 30%;
+    background-color:rgba(0,0,0,0.3);
+    transition-duration: 0.5s; 
+}
+.para-body h1{
+    color:#000;
+    white-space: nowrap;
+}
+.para-body p{
+    color:#fff;
+    font-size:12px;
+}
+
+.probootstrap-inner-image{
+    width:100%;
+    height:290px;
+}
+.probootstrap-inner-image:nth-child(odd) img{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.probootstrap-inner-image:nth-child(even) img{
+    width:50%;
+    height:100%;
+    float:right;
+}
+
+.overlay{
+    display:none;
+    width:100%;
+    height:100%;
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    z-index:99;
+}
+.overlay img{
+    width:70%;
+    height:70%;
+    margin-left:15%;
+    margin-top:5%;
+}
+.overlay span.close{
+    position: relative;
+    width:30px;
+    height:30px;
+    right:20px;
+    top:20px;
+    border:solid 1px rgba(255,255,255,1);
+    color:#fff;
+    padding:5px 6px;
+}
+
+
+
+.cv-container{
+    position: relative;
+    margin-bottom: 300px;
+    background: #ffffff;
+    z-index: 2;
+}
+
+
+.probootstrap-footer a{
+    font-size:24px;
+}
+
+.cv-container img{
+    width:100%;
+    height:100%;
+}
